@@ -1,0 +1,1001 @@
+client_id,nom,prenom,ville,segment,date_inscription
+1,Gallet,Françoise,Boulay,premium,2025-04-27
+2,Lévy,Gabrielle,Sainte Véronique,particulier,2025-02-10
+3,Gaillard,Andrée,Roche,particulier,2023-06-05
+4,Bousquet,Susan,Reynaud,premium,2025-06-30
+5,Rey,Valentine,Laurent,professionnel,2023-12-01
+6,Peron,Jacqueline,Godard,particulier,2024-09-28
+7,Maillot,Antoine,Chrétien,particulier,2024-08-04
+8,Lefebvre,Joséphine,Sainte Patricia-la-Forêt,particulier,2025-03-28
+9,Georges,Frédéric,Turpin-sur-Mer,premium,2024-05-17
+10,Gros,Jacqueline,Hamon,particulier,2024-10-12
+11,Grondin,Christiane,Saint Henriette,premium,2024-08-21
+12,Dupont,Amélie,Renard-la-Forêt,premium,2025-08-20
+13,Charrier,Hugues,Sainte Lorraine,premium,2024-09-29
+14,Humbert,Célina,Massedan,particulier,2024-07-21
+15,Guibert,Henri,Poulainnec,premium,2024-01-11
+16,Rousseau,Brigitte,Roger,professionnel,2024-02-05
+17,Guillet,Alexandre,Saint Paul,particulier,2025-03-25
+18,Becker,Célina,Lenoir,particulier,2025-09-08
+19,Leroy,Anne,Rodriguez-les-Bains,particulier,2026-03-22
+20,Perrier,Colette,Legrand,particulier,2024-11-18
+21,Brun,Corinne,Marquesboeuf,particulier,2025-02-16
+22,Guillon,Nathalie,Carre-la-Forêt,premium,2023-06-14
+23,Philippe,Agnès,Da Costa,premium,2023-06-18
+24,Peltier,Roger,Saint Christellenec,particulier,2023-10-05
+25,Mathieu,Aimé,Rémy,premium,2024-05-13
+26,Coste,Jean,Delahaye-sur-Mer,particulier,2025-01-28
+27,Gallet,Marcelle,Couturierboeuf,premium,2024-12-23
+28,Millet,Roland,Jolynec,premium,2024-07-28
+29,Gérard,Guillaume,Perrierdan,premium,2026-03-06
+30,Roger,Hortense,Sanchez-sur-Chauvet,premium,2024-06-26
+31,Ribeiro,Sylvie,Saint Zoé-sur-Mer,professionnel,2023-12-08
+32,Guérin,Arnaude,Dupuy,particulier,2024-01-19
+33,Barbier,Gabriel,Thierry-sur-Mer,professionnel,2023-12-08
+34,Raymond,Auguste,RousseauBourg,premium,2026-03-16
+35,Dufour,Marine,Saint Dianenec,professionnel,2025-08-05
+36,Moreau,Inès,Morin,particulier,2026-01-18
+37,Deschamps,Noël,Sainte Michel-sur-Mer,particulier,2023-10-11
+38,Merle,Jacques,PichonVille,premium,2024-07-09
+39,Lebon,Benjamin,Guillonnec,professionnel,2023-08-16
+40,Techer,Rémy,Laporte,professionnel,2025-01-07
+41,Lesage,Adèle,Meunier,professionnel,2026-04-05
+42,Richard,Margaret,Saint CarolineVille,particulier,2024-03-25
+43,Albert,Édouard,Sainte Dorothée-la-Forêt,particulier,2024-02-08
+44,Joly,Jeannine,Michel-la-Forêt,professionnel,2024-05-18
+45,Ribeiro,René,Maillot-la-Forêt,particulier,2025-06-18
+46,Gay,Marine,Diazdan,particulier,2024-07-07
+47,Petit,Élise,Rodriguez,professionnel,2024-03-09
+48,Dumas,Roger,Saint Émile-les-Bains,particulier,2024-06-24
+49,Maillet,Capucine,Boulay,professionnel,2026-04-23
+50,Hoarau,Anne,Goncalves,professionnel,2023-09-06
+51,Nicolas,Dominique,Boyer-sur-Philippe,premium,2026-03-17
+52,Seguin,Brigitte,Faure-sur-Lacombe,professionnel,2023-05-31
+53,Petitjean,Emmanuelle,Lopez,particulier,2024-10-06
+54,Teixeira,Margaux,Roger,premium,2025-12-07
+55,Pineau,Philippe,Saint SusanneVille,professionnel,2024-11-19
+56,Collin,Lucie,Guyon,premium,2023-08-25
+57,Lopes,Vincent,Vallet,particulier,2024-10-07
+58,Royer,Virginie,Rivière-la-Forêt,professionnel,2025-07-13
+59,Perrier,Hélène,Renard-sur-Lefebvre,particulier,2026-01-15
+60,Toussaint,Véronique,Sainte Diane,premium,2024-05-08
+61,Bègue,Marine,Gosselin-sur-Tessier,professionnel,2024-06-24
+62,Caron,Timothée,Hoareau,premium,2026-02-03
+63,Lopez,Charlotte,ThibaultVille,premium,2026-03-25
+64,Munoz,Constance,Baudry-sur-Bazin,professionnel,2024-04-07
+65,Klein,Julie,Martinez,premium,2024-09-20
+66,Devaux,Marc,Leroy,particulier,2024-11-21
+67,François,André,Evrard-sur-Baudry,premium,2023-12-25
+68,Coulon,Éléonore,Sainte Thibault,particulier,2024-12-11
+69,Letellier,Robert,FoucherVille,particulier,2023-08-25
+70,Reynaud,Paul,Fleury,premium,2023-11-27
+71,Renaud,Luce,Pineaudan,particulier,2023-10-29
+72,Martinez,Nicolas,Leclerc,professionnel,2025-08-06
+73,Bailly,Alexandria,Saint Susan,particulier,2025-09-29
+74,Jourdan,Aurore,Saint Aimée,particulier,2025-04-04
+75,Vallet,Élise,Saint Isabelle,particulier,2025-12-27
+76,Nicolas,Brigitte,Pineau,professionnel,2025-05-08
+77,Guyon,Clémence,De Sousa-sur-Berthelot,professionnel,2024-11-02
+78,Laroche,Charles,Thomas,professionnel,2024-09-14
+79,Da Costa,Nath,ClémentVille,premium,2025-01-06
+80,Jacques,Antoine,Leconte,professionnel,2023-11-18
+81,Gros,Marthe,Germain,particulier,2026-03-31
+82,Pages,Noémi,Sauvage,professionnel,2023-12-15
+83,Meyer,Philippe,Sanchez,professionnel,2024-12-28
+84,Grondin,Gilbert,Fleury-les-Bains,particulier,2024-04-04
+85,Gaudin,Odette,Gimenez,premium,2025-11-02
+86,Colin,Astrid,Nguyen-sur-Mer,professionnel,2023-12-08
+87,Becker,Jean,Breton,premium,2025-06-24
+88,Roux,Jacques,Sainte CatherineBourg,premium,2024-06-21
+89,Ledoux,Adrienne,Julien,premium,2023-08-15
+90,Voisin,Camille,Germain,particulier,2024-02-15
+91,Rolland,Virginie,Chauveau,premium,2023-10-18
+92,Briand,Timothée,Raynaud,premium,2024-04-19
+93,Marchand,Gabriel,Boucher,particulier,2023-10-02
+94,Dos Santos,Océane,Bousquetdan,premium,2025-08-26
+95,Perret,Célina,Diaz,premium,2025-02-27
+96,Leroux,Franck,Sainte AiméeBourg,particulier,2023-07-20
+97,Charpentier,Sylvie,Antoine,particulier,2025-04-06
+98,Hardy,Benjamin,MarchandVille,professionnel,2025-06-14
+99,Bodin,Margaud,Sainte Audreyboeuf,professionnel,2024-02-27
+100,Pinto,Susanne,Saint Martinedan,professionnel,2024-10-22
+101,Leleu,Christelle,HebertVille,premium,2024-08-23
+102,Dufour,Agathe,Sainte Emmanuel,premium,2023-09-21
+103,Nguyen,William,BeckerBourg,premium,2024-07-06
+104,Georges,Pauline,Saint Zacharie,particulier,2025-03-11
+105,Monnier,Maurice,PotierBourg,premium,2026-04-20
+106,Coulon,Capucine,Sainte Suzanne-sur-Mer,professionnel,2026-02-19
+107,Dupuis,Joseph,Carpentier,particulier,2026-04-08
+108,Maillard,Mathilde,Bodin-sur-Mer,particulier,2025-12-25
+109,Paris,Gérard,Mallet,particulier,2023-11-03
+110,Camus,Élise,Gomes,professionnel,2024-02-09
+111,Marques,Nathalie,Dumont,professionnel,2024-09-16
+112,Weber,Roland,PicardBourg,professionnel,2025-09-21
+113,Texier,Margaux,Sainte Alexandria,particulier,2024-11-25
+114,Leleu,Pénélope,Nicolas,particulier,2026-03-02
+115,Delaunay,Édith,Jacquot,premium,2023-07-20
+116,Wagner,Thérèse,Maurynec,premium,2023-09-26
+117,Langlois,Patricia,MassonBourg,professionnel,2024-01-14
+118,Aubry,Patrick,Mallet,particulier,2025-08-19
+119,Mahe,Marguerite,Perrin,premium,2023-08-20
+120,Le Gall,Henri,Da Silva,professionnel,2023-10-01
+121,Foucher,Philippe,Faivre-sur-Mer,professionnel,2026-03-15
+122,Fischer,Matthieu,Leduc,premium,2024-12-12
+123,Rocher,Marthe,Sainte MichelleVille,professionnel,2024-01-26
+124,Morvan,Dominique,Langlois,particulier,2025-01-29
+125,Lelièvre,Bernadette,Carpentier,professionnel,2025-07-28
+126,Mace,Adrienne,Saint Adrien-les-Bains,particulier,2025-08-17
+127,Leroy,Thibault,Bailly,particulier,2023-08-23
+128,Barbe,Philippe,Saint Anaïs-sur-Mer,premium,2025-01-24
+129,Barbe,Arthur,Saint MadeleineVille,premium,2025-01-23
+130,Lemaître,Henri,Gay,premium,2025-05-04
+131,Boucher,Vincent,Léger,professionnel,2026-02-15
+132,Foucher,Alfred,Sainte Margaud-les-Bains,premium,2025-03-29
+133,Monnier,Christiane,Renault,premium,2025-06-05
+134,Tanguy,Océane,Delannoy,professionnel,2024-02-22
+135,Simon,Lucy,HoarauBourg,premium,2024-11-21
+136,Gimenez,Léon,Gay-sur-Laurent,professionnel,2023-12-28
+137,Muller,Thibaut,Carpentier,professionnel,2024-07-21
+138,Bonnin,Adélaïde,Lefort,particulier,2026-01-23
+139,Masse,Pauline,Martin-la-Forêt,particulier,2023-10-19
+140,Pons,Lucas,Sanchez,premium,2025-03-05
+141,Lombard,Christelle,Sainte Alexandria,professionnel,2023-08-07
+142,Picard,Diane,Schneiderdan,particulier,2024-11-18
+143,Gilles,Hugues,Bigot,particulier,2025-02-16
+144,Jourdan,Michelle,Hamel,particulier,2025-05-04
+145,Leclercq,Martin,Regnier-la-Forêt,particulier,2025-04-27
+146,Potier,Dorothée,Laroche,premium,2024-07-24
+147,Schmitt,Georges,Lombard,particulier,2025-10-12
+148,Goncalves,Thérèse,Monnierdan,premium,2023-06-05
+149,Cousin,Arnaude,Giraud,professionnel,2024-04-20
+150,Muller,Dorothée,Dos Santos-la-Forêt,premium,2026-04-02
+151,Jacques,Christiane,Legendre,particulier,2024-05-06
+152,Thierry,Alexandre,Didiernec,professionnel,2024-08-09
+153,Goncalves,Anaïs,Sainte SuzanneVille,professionnel,2025-10-11
+154,Giraud,Astrid,Lebon,premium,2025-06-22
+155,Bouvet,Xavier,Sainte Patricia,professionnel,2025-02-22
+156,Goncalves,Agnès,Guérin,premium,2024-01-13
+157,Gilbert,Patrick,Lebrun,professionnel,2025-04-14
+158,Delmas,Éléonore,Chartier-sur-Dupuis,premium,2026-04-06
+159,Aubert,Bertrand,Gomes,particulier,2025-09-18
+160,Millet,Guy,Saint Étiennedan,premium,2026-03-20
+161,Gonzalez,Tristan,Bailly,premium,2025-07-07
+162,Julien,Honoré,Guyon,particulier,2023-10-17
+163,Guibert,Édouard,Vallée-la-Forêt,premium,2024-11-06
+164,Cousin,Christiane,Saint Émile,premium,2026-03-24
+165,Hoarau,Nicolas,Godard,professionnel,2024-02-09
+166,Pottier,Jacques,Giraud,premium,2023-05-06
+167,Delattre,Brigitte,Sainte Honoré,professionnel,2025-06-19
+168,Lebreton,Alice,Boyer-sur-Nicolas,particulier,2026-02-17
+169,Perrier,Renée,Joseph,professionnel,2025-01-12
+170,Lejeune,Alexandre,Saint Franck-les-Bains,professionnel,2023-06-21
+171,Fleury,Josette,Duboisdan,particulier,2023-09-18
+172,Rolland,Thibault,Étienne-sur-Pasquier,professionnel,2023-05-07
+173,Lombard,Bertrand,Saint Lucas,particulier,2025-01-17
+174,Caron,Nathalie,Duhamel-sur-Legros,premium,2026-04-26
+175,Petit,Christine,Ribeiro-la-Forêt,premium,2024-03-15
+176,Meunier,Richard,Joubert-la-Forêt,professionnel,2023-10-05
+177,Petit,Bernard,Perret-sur-Lopez,premium,2025-01-19
+178,Giraud,Denise,Mathieu-sur-Potier,particulier,2025-03-10
+179,Robert,Josette,Delattre,premium,2026-04-20
+180,Dupuis,Emmanuelle,Guérin,particulier,2025-03-08
+181,Weber,Lucy,Dupuy-les-Bains,premium,2024-07-29
+182,Barbier,Rémy,Sainte Margaret,professionnel,2025-12-03
+183,Denis,Renée,GeorgesBourg,premium,2025-03-26
+184,Baron,Suzanne,Saint Maggie,premium,2025-08-09
+185,Gillet,Alfred,Carpentier-sur-Fontaine,premium,2023-07-14
+186,Bertin,Guy,Bazin,particulier,2025-06-18
+187,Blanchet,Martin,Faure,particulier,2024-01-08
+188,Delahaye,Guy,Hardy-la-Forêt,professionnel,2023-06-20
+189,Barthelemy,Rémy,Durand-les-Bains,particulier,2024-04-10
+190,Thibault,Joseph,Martin,premium,2024-12-30
+191,Georges,Martin,Klein-la-Forêt,premium,2024-12-29
+192,Pichon,Robert,Saint MartinBourg,particulier,2025-05-02
+193,Boucher,Véronique,Saint Paul,premium,2024-03-28
+194,Verdier,Thibault,Rocher-sur-Mer,professionnel,2023-10-26
+195,Dijoux,Gabrielle,Rémyboeuf,professionnel,2025-02-28
+196,Michel,Inès,Pasquier,particulier,2023-10-20
+197,Mercier,Gilles,Leroy,particulier,2025-11-03
+198,Julien,Anaïs,Gonzalez,professionnel,2023-10-06
+199,Weber,Andrée,Jean,professionnel,2024-06-19
+200,Launay,Antoine,Bergernec,particulier,2024-07-20
+201,Fabre,Christine,Blanchard-sur-Auger,particulier,2024-09-09
+202,Adam,Suzanne,Duhamel-sur-Mer,particulier,2024-05-01
+203,Camus,Grégoire,MauryBourg,premium,2025-03-06
+204,Rivière,Gilles,Saint Clairenec,particulier,2023-11-21
+205,Muller,Michel,Sanchez-sur-Carlier,particulier,2025-07-19
+206,Bègue,Matthieu,Reynaud,premium,2025-02-25
+207,Gautier,Claude,Saint Capucinedan,professionnel,2023-11-26
+208,Morvan,Céline,Besnard,particulier,2024-04-17
+209,Turpin,Théodore,Garnier-sur-Le Goff,premium,2024-05-11
+210,Ferrand,Marianne,Rolland,particulier,2024-11-25
+211,Rodrigues,Valentine,Fischer-les-Bains,particulier,2026-01-07
+212,Barbier,Emmanuelle,Cousin-sur-Marie,premium,2024-12-10
+213,De Oliveira,Marthe,Besson,professionnel,2023-08-31
+214,Guillaume,Robert,Saint Anastasie-la-Forêt,premium,2025-10-08
+215,Vincent,Léon,Valette,particulier,2023-12-15
+216,Fernandez,Édouard,Prévost,professionnel,2025-11-13
+217,Launay,Isabelle,Sainte HenrietteBourg,premium,2025-04-18
+218,Letellier,Jacqueline,Noël,premium,2024-07-08
+219,Richard,Daniel,Delannoy,professionnel,2023-07-18
+220,Hernandez,Éléonore,Julien,particulier,2023-08-22
+221,Mercier,Alfred,HardyVille,premium,2024-01-29
+222,Ollivier,Anaïs,Sainte Pauline,premium,2023-09-02
+223,Rivière,Arthur,BrunBourg,premium,2024-12-30
+224,Gillet,Eugène,Bourgeois,particulier,2023-11-12
+225,Le Roux,Margot,Moreau,premium,2024-10-11
+226,Loiseau,Victoire,Gimenez,professionnel,2025-12-16
+227,Guilbert,Lorraine,Perrin-la-Forêt,professionnel,2024-02-28
+228,Antoine,Étienne,Masson,premium,2023-11-30
+229,Jourdan,Pauline,Michel,premium,2024-01-05
+230,Lefèvre,Édouard,Renault-les-Bains,professionnel,2025-06-08
+231,Collet,Sophie,Lebon-sur-Gros,professionnel,2023-08-04
+232,Pruvost,Margaret,Saint Victor,premium,2026-02-07
+233,Albert,Amélie,Charrier,professionnel,2025-09-30
+234,Benard,Denis,Daviddan,particulier,2024-12-26
+235,Monnier,Alex,Charpentier-les-Bains,particulier,2023-09-12
+236,Bouchet,Simone,Grondindan,particulier,2026-02-15
+237,Rolland,Guy,OlivierBourg,particulier,2025-06-27
+238,Blanchet,Aimé,Collet,professionnel,2024-11-28
+239,Barbier,Paul,Bazin,particulier,2023-06-15
+240,Lecomte,Anaïs,Leconte,premium,2025-07-12
+241,Boucher,Rémy,Maillet-les-Bains,premium,2023-08-13
+242,Lebreton,Élisabeth,Colasnec,particulier,2023-07-13
+243,Besson,François,Cohen,premium,2026-04-08
+244,De Sousa,Marie,CamusVille,particulier,2025-05-29
+245,Charles,Margot,Da Costa-sur-Neveu,particulier,2024-05-03
+246,Denis,Roland,Lerouxboeuf,particulier,2026-04-25
+247,Gérard,Henri,Boutinboeuf,premium,2023-11-08
+248,Paris,Julie,Lacroix-sur-Pereira,premium,2025-10-14
+249,Laroche,Mathilde,Grenier,particulier,2025-04-20
+250,Brunet,Adrien,Diaz,particulier,2026-03-09
+251,Hervé,Pierre,Sainte Adrien,particulier,2026-01-10
+252,Rossi,Antoine,François-sur-Mer,particulier,2025-08-06
+253,Coulon,Alex,Maillet-sur-Colin,professionnel,2025-08-10
+254,Gay,Pierre,Sainte Aimée-les-Bains,particulier,2025-02-16
+255,Berger,Pauline,Duval-sur-Schneider,premium,2025-03-01
+256,Guillet,Gilbert,Duval,particulier,2025-10-02
+257,Colin,Hugues,Leroy,professionnel,2023-09-16
+258,Allard,Anne,Ferreira,premium,2025-04-25
+259,Collin,Jeanne,Pelletier,professionnel,2025-10-01
+260,Delmas,Michèle,Guillou,particulier,2023-10-27
+261,Roger,Frédérique,Charrier,premium,2023-10-11
+262,Parent,Gilles,De Sousa,particulier,2024-08-04
+263,Morvan,Jacqueline,Maillot,premium,2025-02-27
+264,Gaudin,Célina,Chrétienboeuf,premium,2026-03-24
+265,Rey,Sylvie,Perrier,premium,2025-04-14
+266,Foucher,Corinne,Mallet-sur-Salmon,professionnel,2025-10-28
+267,Laporte,Nicolas,Moulin,particulier,2025-12-11
+268,Langlois,Dominique,SeguinBourg,professionnel,2024-01-11
+269,Dufour,Thibault,Faure-sur-Boyer,professionnel,2024-08-17
+270,Moreno,Philippine,Marchand-la-Forêt,particulier,2025-02-21
+271,Meyer,Marie,Lecontedan,particulier,2025-11-08
+272,Berthelot,Marie,PierreBourg,particulier,2024-09-03
+273,Léger,Élisabeth,JacquotVille,premium,2024-11-23
+274,Boucher,Noël,Dupontdan,professionnel,2025-11-12
+275,Gimenez,Stéphanie,Saint Théophile-sur-Mer,professionnel,2023-07-04
+276,Petitjean,Cécile,De SousaVille,professionnel,2024-12-01
+277,Jacquet,Madeleine,Devaux,professionnel,2024-04-04
+278,Seguin,Jean,Buisson,professionnel,2024-07-26
+279,Prévost,Catherine,Olivier-sur-Robin,premium,2024-01-01
+280,Leclerc,Julien,Rousseau,particulier,2024-07-04
+281,Techer,Denise,Caronnec,premium,2024-01-23
+282,Loiseau,Élise,Legros,premium,2025-11-12
+283,Leroy,Colette,Payet-sur-Descamps,premium,2026-04-12
+284,Letellier,Zoé,Sainte Noéminec,particulier,2023-11-19
+285,Étienne,Zoé,CollinVille,particulier,2024-05-08
+286,Gilles,Suzanne,Sainte Théophile,professionnel,2025-07-13
+287,Gosselin,Édith,Gilbert-sur-Mer,premium,2025-09-02
+288,Bigot,Marguerite,Pruvost-sur-Philippe,professionnel,2023-08-08
+289,Vincent,Rémy,Roux-les-Bains,particulier,2024-05-27
+290,Gautier,Adélaïde,Saint HuguesVille,particulier,2026-04-23
+291,Joseph,Marguerite,Fischer-sur-Humbert,particulier,2024-03-01
+292,David,Maryse,Sainte Patricia,particulier,2025-09-03
+293,Berthelot,Anouk,Pruvost,premium,2025-10-22
+294,Pages,Élodie,Lopes-la-Forêt,professionnel,2023-07-19
+295,Briand,Noël,Raymond,particulier,2025-03-30
+296,Pelletier,Frédéric,Gay,professionnel,2024-06-04
+297,Leduc,Xavier,Barthelemy,particulier,2025-01-22
+298,Lucas,Stéphane,MeyerVille,professionnel,2024-10-01
+299,Seguin,Danielle,Lemonnier-sur-Couturier,professionnel,2024-09-07
+300,Valentin,Aimée,Gaudin,particulier,2025-01-05
+301,Pottier,Madeleine,Guillotnec,particulier,2025-06-01
+302,Lejeune,Augustin,Sainte Dominique,professionnel,2026-03-16
+303,Delahaye,André,PiresBourg,premium,2025-07-12
+304,Moreau,Véronique,Georges,particulier,2026-02-01
+305,Rolland,Alix,Bernard,particulier,2024-05-21
+306,Mallet,Henri,Robin-sur-Hamon,premium,2025-08-08
+307,Leblanc,Adrienne,Ferrand,premium,2026-02-25
+308,Goncalves,Maurice,CharpentierBourg,particulier,2026-03-25
+309,Rey,Mathilde,Paul,particulier,2025-04-24
+310,Alexandre,Édouard,Sainte Lucy,particulier,2025-08-22
+311,Roy,Virginie,Barthelemy-sur-Mer,particulier,2023-12-18
+312,Thierry,Antoinette,Sainte Antoine,professionnel,2025-05-25
+313,Parent,Agathe,Collin-sur-Mer,professionnel,2025-11-15
+314,Pons,Eugène,Leleuboeuf,professionnel,2024-05-13
+315,Hardy,Anne,Payet-la-Forêt,particulier,2024-10-28
+316,Courtois,Adèle,Morel,professionnel,2023-09-26
+317,Baron,Céline,Sainte Henriette,particulier,2024-06-17
+318,Bouchet,Charles,Payet,particulier,2024-10-31
+319,Fischer,Adèle,Lecontenec,professionnel,2024-10-28
+320,Brun,Roland,Sainte Marthe,particulier,2025-11-26
+321,Roche,Mathilde,Huetboeuf,professionnel,2024-08-18
+322,Peron,Gilbert,Sainte Xavier,professionnel,2025-05-31
+323,Fischer,Yves,Sainte BenjaminVille,professionnel,2024-04-12
+324,Garcia,Thierry,Saint Jacques,professionnel,2023-06-24
+325,Boulanger,Catherine,Caronnec,professionnel,2023-04-29
+326,Nicolas,Martin,LenoirBourg,premium,2023-06-20
+327,Mercier,Agathe,Saint Aurélie,premium,2025-04-26
+328,Courtois,Margaud,Fouquet,premium,2023-11-30
+329,Cordier,Gilles,Dupuy,premium,2023-10-22
+330,Millet,Suzanne,Sainte Laure,premium,2023-08-31
+331,Vidal,Émile,Bègue,professionnel,2025-07-11
+332,Bourgeois,Matthieu,Michaud-sur-Martins,particulier,2025-07-24
+333,Delaunay,Benoît,Diallodan,particulier,2025-03-21
+334,Hoareau,Élodie,Rémy-la-Forêt,professionnel,2023-10-19
+335,Blin,Édouard,Charpentierdan,particulier,2026-01-19
+336,Schneider,Laure,Fouquetdan,particulier,2026-01-24
+337,Cousin,Hugues,Collin,premium,2025-09-09
+338,Leclerc,Madeleine,Rolland,premium,2026-01-20
+339,Guérin,Alexandre,Sainte Nath,premium,2024-12-19
+340,Louis,Vincent,Cousin-sur-Mer,particulier,2024-01-12
+341,Hardy,Jean,Poirier,premium,2023-12-28
+342,Blot,Denis,Lecoq,professionnel,2025-02-15
+343,Rémy,Claire,Pinto,particulier,2024-02-13
+344,Royer,Alex,AugerVille,particulier,2024-12-17
+345,Guillou,Adrien,Sainte PhilippineVille,premium,2025-04-03
+346,Gosselin,Xavier,Sainte Valentine,professionnel,2024-02-20
+347,Salmon,Benjamin,Saint Grégoire,premium,2025-03-31
+348,Thibault,Gilles,JacobVille,premium,2025-04-09
+349,Weiss,Marc,Sainte Lucy-les-Bains,particulier,2025-05-14
+350,Marchand,Théodore,Samson,particulier,2023-05-28
+351,Hernandez,Louise,Léger-sur-Colin,premium,2024-11-27
+352,Sauvage,Michelle,Gay,particulier,2023-07-04
+353,Aubry,Margaret,Sainte ThibaultBourg,particulier,2023-09-20
+354,Buisson,Céline,Grenier,particulier,2025-08-17
+355,Peron,Laurence,Mathieu,premium,2024-08-16
+356,Rossi,Valérie,Saint Georges,particulier,2025-07-26
+357,Dupuy,Frédéric,Lagarde,premium,2023-05-02
+358,Boucher,Isaac,Sainte Benoît,particulier,2023-05-14
+359,Gay,Jacqueline,Laroche-la-Forêt,professionnel,2023-05-02
+360,Ollivier,Françoise,Fischer,particulier,2025-03-30
+361,Girard,Marianne,Saint Martin,premium,2023-12-11
+362,Millet,Élisabeth,Jourdan,particulier,2024-02-04
+363,Olivier,Eugène,BonninVille,premium,2024-12-09
+364,Humbert,Thibaut,Bonnin-la-Forêt,premium,2025-10-25
+365,Fournier,Susan,Auger,particulier,2024-09-10
+366,Bourgeois,Jean,Prévost,premium,2023-05-05
+367,Dupré,Luc,ImbertBourg,particulier,2024-08-10
+368,Lebreton,Antoinette,Ferreira,professionnel,2025-08-19
+369,Lelièvre,Charles,Sainte Suzanneboeuf,premium,2025-06-22
+370,Hardy,André,Bessonnec,premium,2024-12-12
+371,Leleu,Danielle,Boutin,premium,2026-01-01
+372,Pascal,Suzanne,Riou,premium,2023-10-24
+373,Clerc,Élisabeth,Jeanboeuf,professionnel,2024-07-29
+374,Leleu,Benoît,Tessier,professionnel,2023-08-31
+375,Guichard,Susanne,Verdier-sur-Pasquier,particulier,2023-10-17
+376,Lagarde,Arnaude,Faivre,premium,2025-10-09
+377,Henry,Gabrielle,Saint Luce-sur-Mer,premium,2024-05-29
+378,Foucher,Zacharie,Cousin,professionnel,2026-01-25
+379,Legendre,Robert,Sainte Paulinedan,particulier,2023-08-28
+380,Pelletier,Marc,Garnier-sur-Duval,professionnel,2023-12-03
+381,Vasseur,Jérôme,Buisson-sur-Lemoine,professionnel,2023-09-11
+382,Petit,Victoire,Sainte Charles,particulier,2024-04-28
+383,Gonzalez,Édouard,Lemaire,premium,2024-09-22
+384,Chauvin,Diane,Faure-sur-Godard,premium,2026-03-30
+385,Bousquet,Pierre,Marty,professionnel,2026-04-01
+386,Faivre,Gabrielle,Dupont,professionnel,2024-07-02
+387,Denis,Catherine,Pierre,professionnel,2025-12-14
+388,Moreau,Alphonse,Sainte Alexandria,particulier,2025-12-06
+389,Leleu,Agnès,Gilbert,particulier,2024-06-03
+390,Schmitt,Richard,Saint NathVille,professionnel,2024-01-09
+391,Renard,Martine,Prévost,premium,2023-05-01
+392,Fernandes,Jérôme,DiasBourg,premium,2025-01-03
+393,Maréchal,Gilles,Saint Sabine,particulier,2024-11-08
+394,Valette,Éléonore,Sainte EugèneVille,particulier,2024-12-03
+395,Bonneau,Susanne,Bernier,premium,2023-05-09
+396,Ruiz,Julien,Guérin-sur-Morvan,particulier,2024-03-19
+397,Launay,Roland,Sainte DanielleBourg,premium,2025-02-21
+398,Carpentier,Éléonore,Pichon-la-Forêt,professionnel,2025-03-01
+399,Guillot,Frédérique,Saint Inès,particulier,2024-09-18
+400,Payet,Simone,Saint Sabine,professionnel,2024-09-07
+401,Imbert,Stéphanie,Muller,particulier,2024-01-30
+402,Bruneau,Luc,Royer-sur-Foucher,particulier,2025-11-04
+403,Petitjean,Alexandre,Sainte Colette,professionnel,2025-07-09
+404,Guillon,Laurence,Foucher-la-Forêt,professionnel,2023-05-18
+405,Dubois,Simone,Thomas,particulier,2026-01-04
+406,Bouvier,Mathilde,Lelièvreboeuf,professionnel,2023-08-07
+407,Roy,Nath,Godardboeuf,premium,2023-11-07
+408,Neveu,Marianne,Roussel-la-Forêt,premium,2024-02-28
+409,Peltier,Bernadette,Perrin-sur-Blanc,professionnel,2024-12-28
+410,Mathieu,Philippe,Samson,premium,2024-09-17
+411,Mathieu,Marthe,Saint GuillaumeBourg,premium,2024-10-24
+412,Foucher,Julien,Saint Auguste-les-Bains,premium,2024-05-05
+413,Bailly,Éric,GosselinBourg,particulier,2025-11-25
+414,Garcia,Aurélie,Saint ÉlodieVille,premium,2023-05-01
+415,Leblanc,Adrienne,Sainte Anastasie,premium,2023-07-11
+416,Tessier,Marthe,Sainte Charlotteboeuf,professionnel,2025-01-12
+417,Guyot,Olivie,Ruiz-sur-Lemonnier,premium,2026-04-26
+418,Chauveau,Marie,Descamps,particulier,2023-09-29
+419,Lambert,Georges,Riou,particulier,2025-01-23
+420,Jacquet,Océane,Labbé-la-Forêt,professionnel,2025-05-10
+421,Bodin,Odette,Pruvost-les-Bains,particulier,2025-04-09
+422,Tanguy,Mathilde,Millet-les-Bains,particulier,2024-11-22
+423,Leblanc,Céline,Poirier-la-Forêt,premium,2024-02-10
+424,Chrétien,Corinne,Rossi,premium,2025-02-06
+425,Salmon,Valentine,Fischer-la-Forêt,particulier,2025-07-20
+426,Bruneau,Auguste,Saint Juliettedan,professionnel,2024-05-02
+427,Lambert,Louis,Fleury,professionnel,2023-12-22
+428,Joubert,Guillaume,Chauveau-sur-Hamon,premium,2026-02-13
+429,Navarro,Charles,Guilbert,particulier,2025-01-31
+430,Martin,Adèle,Guilbertnec,premium,2023-05-08
+431,Lacroix,Zacharie,Bourgeois,professionnel,2025-03-23
+432,Jourdan,Antoine,Saint Nicole-les-Bains,particulier,2026-03-08
+433,Letellier,René,Morvan,premium,2026-03-18
+434,Michaud,Caroline,Jacquet-sur-Loiseau,premium,2025-12-03
+435,Baron,Alex,Grondin,professionnel,2025-03-13
+436,Bouchet,Olivier,Gomes,premium,2025-03-19
+437,Gaillard,Olivier,Mace,professionnel,2023-07-15
+438,Schmitt,Roland,Georges-les-Bains,professionnel,2024-10-26
+439,Bègue,Nicolas,Navarroboeuf,particulier,2024-07-15
+440,Coulon,Matthieu,Delannoy-sur-Blin,particulier,2024-01-09
+441,Texier,Alain,Regnier-sur-Colin,premium,2024-01-07
+442,Thibault,Dominique,Sainte Gabrielle,professionnel,2023-07-10
+443,Pruvost,Laetitia,Teixeira-les-Bains,professionnel,2024-03-16
+444,Clerc,Gabriel,Grenier,particulier,2023-11-14
+445,Durand,Rémy,Sainte MarieVille,particulier,2023-09-19
+446,Lecoq,Pénélope,Guillaume,professionnel,2025-06-17
+447,Teixeira,Jacqueline,Bonnetdan,particulier,2025-10-16
+448,Pasquier,Véronique,Sainte Julien,premium,2023-12-28
+449,Gillet,Antoine,Saint Caroline-les-Bains,professionnel,2024-05-29
+450,Raymond,Suzanne,SanchezVille,particulier,2023-06-12
+451,Paul,Charles,Dupontnec,premium,2026-04-26
+452,Fernandes,Patricia,Piresnec,professionnel,2026-02-21
+453,Moreno,Thérèse,Pereiranec,premium,2024-10-21
+454,Boyer,Gabrielle,Lejeune-sur-Marques,premium,2024-06-23
+455,Bouchet,Thérèse,Sainte Lucy,professionnel,2025-11-22
+456,Bernier,Thibaut,Petitjeanboeuf,premium,2024-06-30
+457,Marty,Susan,Wagnernec,particulier,2023-08-06
+458,Durand,Hortense,Pottiernec,particulier,2025-04-12
+459,Lopes,Richard,Georges,particulier,2023-11-26
+460,Allain,Hortense,Gérardboeuf,premium,2025-12-25
+461,Leleu,Monique,Clercboeuf,particulier,2024-04-15
+462,Laine,Amélie,Diasdan,premium,2023-05-10
+463,Didier,Raymond,Gosselin,particulier,2025-11-28
+464,Dupré,Hortense,Sainte David,professionnel,2025-09-18
+465,Pires,Étienne,LemaîtreBourg,premium,2025-11-21
+466,Joseph,Christine,Lopes,premium,2025-02-01
+467,Dumas,Charles,LeleuVille,particulier,2023-11-21
+468,Dias,Richard,Devauxnec,professionnel,2025-06-20
+469,Fischer,Alice,Morin-sur-Mathieu,particulier,2024-04-07
+470,Briand,Gabrielle,Dias,particulier,2024-09-13
+471,Charpentier,Virginie,Caronboeuf,professionnel,2024-02-11
+472,Pierre,Adrien,Renaud,professionnel,2025-08-02
+473,Clerc,Odette,Leduc,particulier,2025-09-11
+474,Lamy,Victor,Dias,professionnel,2023-05-02
+475,Rey,Eugène,Alves-sur-Georges,particulier,2023-11-05
+476,Chauvet,David,Rousset,premium,2025-08-31
+477,Legrand,Martin,Dupont,particulier,2025-10-30
+478,De Oliveira,Michelle,Prévost,premium,2023-10-10
+479,Bonneau,François,Dupuis,particulier,2023-05-13
+480,Sanchez,Nath,Sainte Hélène,professionnel,2024-12-09
+481,Poulain,Victor,Jacquot-la-Forêt,premium,2025-11-22
+482,Pottier,Jérôme,Collet,professionnel,2024-03-08
+483,Martel,Bernadette,Saint Suzanne-la-Forêt,premium,2024-10-31
+484,Marchal,Timothée,CordierVille,premium,2023-12-16
+485,Tanguy,Maurice,Dumont,particulier,2023-08-28
+486,Thomas,Isabelle,Gilbert,particulier,2024-02-08
+487,Laine,Capucine,Morindan,particulier,2025-03-29
+488,Hebert,Marthe,Costa,particulier,2025-09-18
+489,Blondel,Margot,Mallet,professionnel,2023-05-02
+490,Robert,Éric,Morin,particulier,2024-10-23
+491,Voisin,Marc,Pasquier,particulier,2023-12-13
+492,Pages,Michelle,Lévêque,premium,2025-04-12
+493,Pruvost,Inès,Maréchal,professionnel,2024-11-17
+494,Garnier,Nath,Duranddan,professionnel,2024-12-28
+495,Guyot,Étienne,Chartier,premium,2024-03-11
+496,Boucher,Margot,David,premium,2023-07-07
+497,Carre,Augustin,Muller,particulier,2024-09-22
+498,Lebreton,Claudine,Pichon,professionnel,2025-04-27
+499,Auger,Gilles,Delahayedan,particulier,2025-02-07
+500,Bousquet,Marthe,Ruiznec,premium,2024-11-09
+501,Meyer,Olivier,RoussetBourg,particulier,2026-04-02
+502,Garnier,Alfred,Bailly,professionnel,2025-04-22
+503,Guibert,Renée,Poulain-la-Forêt,particulier,2023-11-02
+504,Chauveau,Georges,Vasseurnec,professionnel,2025-05-27
+505,Baudry,Simone,ReyVille,particulier,2026-02-25
+506,Guérin,Édouard,Rocher,particulier,2024-01-05
+507,Guillou,Susanne,Prévost-sur-Petitjean,professionnel,2024-03-24
+508,Chauvet,Honoré,Dufour,professionnel,2025-02-20
+509,Parent,Monique,BoucherVille,professionnel,2023-11-20
+510,Blanchet,Guy,Duval,particulier,2024-02-12
+511,Bonnin,Marcel,Lombard,particulier,2025-10-18
+512,Maillard,Rémy,Techer,particulier,2023-06-27
+513,Godard,Renée,Sainte Danielle,premium,2024-02-23
+514,Lesage,Valentine,Alexandrenec,particulier,2025-01-25
+515,Pruvost,Patricia,Poulain,professionnel,2024-06-14
+516,Voisin,Zacharie,Voisin-les-Bains,professionnel,2025-03-16
+517,Evrard,Camille,Legros-sur-Bourdon,professionnel,2024-07-13
+518,Joubert,Agathe,Pruvost,particulier,2026-01-06
+519,Blanc,Pénélope,Guichard,professionnel,2023-11-08
+520,Carpentier,Denis,Rodriguez-sur-Mer,professionnel,2023-07-15
+521,Mary,Denis,Gonzalez-sur-Léger,premium,2026-03-07
+522,Rousset,Lucy,Mary,premium,2024-07-14
+523,Hernandez,Alphonse,Lenoirdan,professionnel,2026-03-23
+524,Perret,Eugène,Vasseur,premium,2026-04-26
+525,Richard,Inès,Simonnec,premium,2023-09-01
+526,Guillaume,Gérard,Julien,professionnel,2024-08-16
+527,Rodriguez,Jeanne,Maillet,particulier,2026-02-18
+528,Jacques,Renée,MarionVille,particulier,2025-03-02
+529,Gallet,Adélaïde,Prévostdan,professionnel,2024-06-04
+530,Ollivier,Frédérique,Pichon,particulier,2025-11-06
+531,Lacroix,Margot,Vallée,premium,2024-09-04
+532,Guyot,Paulette,Saint Suzanne-la-Forêt,professionnel,2026-04-02
+533,Collin,Nicole,Sainte Marthe-les-Bains,particulier,2025-11-25
+534,Blondel,Alix,Lucas,particulier,2024-08-22
+535,Hoareau,Hugues,Albert,premium,2025-10-14
+536,Torres,Susanne,Étienne,professionnel,2024-01-26
+537,Blondel,Jules,Sainte Élodieboeuf,professionnel,2023-05-27
+538,Garcia,Astrid,Lemaître-sur-Mer,premium,2025-04-29
+539,Boutin,Juliette,Saint Thibault,professionnel,2026-03-25
+540,Besnard,Benjamin,Leleu-les-Bains,professionnel,2024-03-18
+541,Robert,Claudine,Sainte Josette-sur-Mer,premium,2025-04-26
+542,Lopez,Théodore,Beckerdan,premium,2024-12-14
+543,Bailly,Anastasie,Sainte Suzanne-les-Bains,particulier,2024-02-06
+544,Barre,Laurence,Pasquier,professionnel,2025-04-25
+545,Bonneau,Anaïs,Laroche-sur-Hebert,premium,2025-01-22
+546,Richard,Manon,Sainte Michelle,particulier,2023-09-03
+547,Pires,Édith,Riounec,professionnel,2024-01-31
+548,Baudry,Suzanne,MarionVille,particulier,2024-10-21
+549,Chrétien,Caroline,Marion,premium,2025-12-26
+550,Regnier,Hugues,Sainte Laurent,professionnel,2025-07-28
+551,Arnaud,Colette,Bègue,particulier,2025-04-30
+552,Gros,Audrey,RouxVille,premium,2024-02-27
+553,Léger,Édouard,Sainte Matthieu-les-Bains,premium,2024-11-12
+554,De Sousa,Antoinette,Barbier,premium,2023-08-02
+555,Cousin,Chantal,Sainte Noémi,premium,2024-12-13
+556,Julien,Zoé,Grégoiredan,premium,2024-06-09
+557,Albert,Roland,Dumontboeuf,premium,2023-10-27
+558,Perez,Hugues,Joubert-sur-Torres,premium,2025-01-07
+559,Navarro,Arnaude,Munoz,particulier,2023-11-14
+560,Chauvet,Margaret,Leblanc,professionnel,2024-11-26
+561,Roux,Anne,Sainte Auguste,professionnel,2024-06-23
+562,Colas,Bernadette,Sainte Joseph,particulier,2025-02-23
+563,Masson,Pauline,Saint CarolineBourg,premium,2023-11-06
+564,Allard,Vincent,Lelièvre,professionnel,2023-06-08
+565,Bruneau,Gilbert,Briand-sur-Mer,premium,2023-12-30
+566,Michel,Noémi,Leclercq,professionnel,2024-07-05
+567,Robin,Catherine,Charles-sur-Bonnin,premium,2025-02-07
+568,Gomez,Joséphine,Hamon,particulier,2023-07-30
+569,Pinto,Caroline,Perrier,premium,2023-07-21
+570,Dubois,Paulette,Guillot-la-Forêt,professionnel,2025-09-02
+571,Normand,Capucine,Gomezboeuf,premium,2024-12-14
+572,Pasquier,Emmanuelle,Jacquotdan,professionnel,2023-12-08
+573,Bègue,Richard,Olivier-sur-Lemaire,premium,2024-10-17
+574,Arnaud,Arthur,Albert,professionnel,2025-11-05
+575,Normand,Théodore,GuibertBourg,professionnel,2023-12-31
+576,Diaz,Isabelle,Guyot,professionnel,2024-10-25
+577,Regnier,Manon,Saint Théodore,premium,2026-04-10
+578,Lacroix,Philippe,SeguinBourg,professionnel,2023-08-31
+579,Charpentier,Charles,Jacob,premium,2023-09-04
+580,Dupré,Michelle,Dufour-sur-Nicolas,particulier,2024-05-23
+581,Perrot,Stéphane,Maillard-sur-Pascal,particulier,2026-02-11
+582,Grenier,Charlotte,Blin,professionnel,2023-08-16
+583,Berger,Denise,Mendès,premium,2024-02-17
+584,Martin,Madeleine,Saint Laurent,professionnel,2026-04-16
+585,Guérin,Laurent,Normand-les-Bains,premium,2023-12-14
+586,Hernandez,Lorraine,Larochedan,premium,2025-11-28
+587,Marin,Juliette,Durand,particulier,2025-11-25
+588,Philippe,Margot,Arnaud,premium,2025-10-18
+589,Coulon,Astrid,Saint Alfred-la-Forêt,premium,2024-05-28
+590,Lefebvre,Éric,Saint Paulette,professionnel,2024-11-16
+591,Guyot,Astrid,Sainte Andrée,professionnel,2025-08-07
+592,Ribeiro,Stéphanie,Sainte Jérôme-les-Bains,premium,2024-08-11
+593,Brunet,Théodore,Bruneau-sur-Pinto,particulier,2024-12-24
+594,Hamel,Daniel,Rocherdan,professionnel,2024-01-21
+595,Bonneau,Nath,Poulain,professionnel,2025-08-05
+596,Roy,Éléonore,Jolydan,particulier,2024-07-18
+597,Paul,François,Dumont,professionnel,2025-07-02
+598,Hoarau,Zoé,Leleu,premium,2026-03-18
+599,Masse,Jean,Guyot-sur-Laine,premium,2024-06-10
+600,Diaz,Thibault,Lambert-sur-Lenoir,premium,2024-11-19
+601,Benoit,Émilie,Hamel-sur-Guibert,professionnel,2025-07-14
+602,Clerc,Joséphine,Humbertboeuf,professionnel,2026-01-23
+603,Fontaine,Inès,Lagarde,professionnel,2026-04-27
+604,Becker,Alfred,Peron-les-Bains,professionnel,2024-07-15
+605,Lacombe,Marcel,Muller,premium,2024-10-31
+606,Rousset,Célina,Fernandesboeuf,particulier,2024-08-17
+607,Pichon,Alice,Saint Michèledan,premium,2024-10-03
+608,Morvan,Astrid,Launayboeuf,professionnel,2023-06-13
+609,Seguin,Frédéric,Guichard,premium,2025-05-07
+610,Richard,Nath,Reynaud,particulier,2024-08-15
+611,Laporte,Valérie,Gomeznec,premium,2025-11-28
+612,Poulain,Georges,Sainte Louise,particulier,2025-10-11
+613,Samson,Lorraine,Neveu-sur-Laurent,professionnel,2025-08-27
+614,Lagarde,Noël,Schneider-la-Forêt,premium,2025-07-05
+615,Laurent,Olivie,Sainte ÉléonoreBourg,premium,2023-06-27
+616,Gaillard,Hugues,Maceboeuf,premium,2024-05-18
+617,Martinez,Aurore,Lebreton,premium,2024-03-31
+618,Étienne,Édouard,Sainte Maggie,professionnel,2023-10-15
+619,Maury,Joseph,Alves,particulier,2024-02-06
+620,Ferrand,Nathalie,Hardy,particulier,2024-12-27
+621,Mercier,Lorraine,Martinezdan,premium,2023-09-23
+622,Voisin,Gilbert,SamsonBourg,professionnel,2024-02-04
+623,Langlois,Dominique,Mercier,particulier,2025-10-23
+624,Vincent,Dorothée,Voisin,particulier,2025-04-17
+625,Germain,Matthieu,Saint Marguerite-la-Forêt,particulier,2025-01-20
+626,Thierry,Alphonse,Thierry-sur-Mer,particulier,2025-04-11
+627,Gros,Lucie,Lejeuneboeuf,particulier,2024-09-05
+628,Pons,Anouk,Picard-sur-Rivière,particulier,2025-10-04
+629,Renard,Zacharie,Barbier,professionnel,2025-06-27
+630,Legros,Sylvie,Gauthier,premium,2026-02-28
+631,Chauveau,Jérôme,Delmas-sur-Simon,particulier,2024-05-08
+632,Bouvet,Auguste,Charpentierdan,professionnel,2024-07-05
+633,Lefèvre,Lucy,Saint Anne,professionnel,2025-06-01
+634,Martel,Lorraine,Sainte Éricnec,premium,2025-12-05
+635,Dumont,Claire,Gillet,premium,2024-08-04
+636,Daniel,Thibaut,Delahaye,particulier,2024-03-07
+637,Picard,Joseph,Bigot,premium,2023-12-04
+638,Brunel,Camille,Laporte,premium,2024-04-03
+639,Jacquot,Matthieu,Blondel,professionnel,2023-11-04
+640,Lebreton,Bernard,Muller-sur-Mer,professionnel,2024-08-23
+641,Olivier,Benoît,Bègue,professionnel,2026-02-05
+642,Thierry,Anastasie,Perrierdan,particulier,2025-07-13
+643,Raynaud,Michelle,Jacob,particulier,2024-12-27
+644,Gillet,Richard,RamosVille,premium,2025-08-13
+645,Bigot,Philippine,Evrard,premium,2025-11-15
+646,Chartier,Laetitia,Texier,particulier,2025-12-30
+647,Maury,Théophile,RegnierVille,particulier,2025-06-26
+648,Cousin,Margot,Martineau-la-Forêt,professionnel,2026-02-07
+649,Lacroix,Emmanuel,Étienne,particulier,2023-10-19
+650,Traore,Théodore,DescampsBourg,particulier,2024-05-10
+651,Normand,Aurélie,Larochedan,premium,2023-06-18
+652,Girard,Maryse,Sainte Aurore,premium,2025-02-18
+653,Pinto,Marc,Guilbert-la-Forêt,professionnel,2023-08-19
+654,Lacombe,Marcelle,Noël-sur-Mer,particulier,2026-03-14
+655,Martel,Maggie,Prévost-sur-Guillaume,premium,2026-01-14
+656,Da Silva,Margaux,Bonnin-sur-Lambert,particulier,2025-03-10
+657,Albert,Françoise,Bègue,particulier,2023-08-31
+658,Delorme,Audrey,Saint Charles-la-Forêt,professionnel,2025-08-02
+659,Bonnet,Clémence,Saint Cécile,particulier,2025-10-11
+660,Baudry,Victor,Briand,professionnel,2025-01-12
+661,Michel,Juliette,Duval,premium,2024-07-16
+662,Morin,Valérie,Jacob,premium,2026-04-17
+663,Mathieu,Vincent,Lopes,premium,2024-07-30
+664,Brunet,Claude,Marquesdan,premium,2025-11-16
+665,Philippe,Zoé,Breton,professionnel,2024-06-10
+666,Dupont,Valérie,Chauvin,professionnel,2024-03-09
+667,Grondin,Antoine,Da Costa,premium,2025-05-25
+668,Perrin,Françoise,Pires-la-Forêt,premium,2024-08-02
+669,Legendre,Adrienne,Sainte Charles,premium,2024-05-04
+670,Philippe,Pierre,Blanc-sur-Dias,professionnel,2025-09-28
+671,Fouquet,Odette,FontaineBourg,premium,2023-05-30
+672,Salmon,Andrée,Paul,professionnel,2025-07-23
+673,Garcia,Marine,Faivre-sur-Dijoux,particulier,2025-03-10
+674,Voisin,Pénélope,Traore-sur-Rousset,premium,2023-06-29
+675,Hamon,Christelle,Sainte Marianne,professionnel,2023-07-16
+676,Poirier,Adèle,Sainte Joseph,professionnel,2026-01-25
+677,Ribeiro,Timothée,Lesage,professionnel,2025-01-17
+678,Delmas,Lucie,Gautier,particulier,2025-05-16
+679,Perrier,Aurélie,Bouvier,premium,2024-06-09
+680,Schneider,Constance,Perez,professionnel,2023-05-09
+681,Joly,Gabrielle,LévêqueVille,premium,2024-10-02
+682,Germain,Frédéric,Guillaumedan,professionnel,2025-10-26
+683,Marchal,Élisabeth,Fischer,premium,2026-01-10
+684,Toussaint,Brigitte,Roussel,particulier,2025-06-03
+685,Sauvage,Agathe,Chauvin,professionnel,2024-07-31
+686,Chevallier,Suzanne,Dufour-sur-Lopes,professionnel,2025-06-28
+687,Rivière,Paul,Da Silva,particulier,2024-09-25
+688,Girard,Hugues,Benoit,premium,2024-01-10
+689,Baron,Alix,Maillet,professionnel,2025-08-06
+690,Joly,Nath,Sainte Timothéedan,particulier,2024-10-16
+691,Lambert,Véronique,FabreBourg,professionnel,2024-06-05
+692,Perrot,Philippine,Guillaumedan,professionnel,2024-05-27
+693,Durand,Antoinette,Lucas,professionnel,2023-10-09
+694,Chevallier,Étienne,Le Roux,premium,2024-05-31
+695,Blin,Eugène,Rousset-sur-Jacques,particulier,2025-08-10
+696,Mathieu,Roger,Saint Daniel-sur-Mer,particulier,2024-03-31
+697,Jacquot,Benjamin,Saint Marc,particulier,2025-06-09
+698,Weiss,Zoé,Moreno,particulier,2025-11-19
+699,Perrot,Mathilde,Buisson,professionnel,2025-12-28
+700,Daniel,Arnaude,Gérard,premium,2025-02-14
+701,Bigot,Édith,Bègue,particulier,2025-07-28
+702,Guyot,Patrick,Godarddan,premium,2024-06-08
+703,Michaud,Margot,Tessier,particulier,2025-01-27
+704,Guilbert,Marianne,Foucher,particulier,2023-10-08
+705,Baudry,Océane,Gonzalez-la-Forêt,professionnel,2026-04-08
+706,Menard,Susan,Klein,professionnel,2025-10-25
+707,Gonzalez,Suzanne,Boucher,professionnel,2024-07-08
+708,Bernard,Denis,Courtois-sur-Mer,premium,2025-09-28
+709,Clément,Patricia,Rolland,professionnel,2025-11-21
+710,Ribeiro,Martin,Bailly-sur-Mer,professionnel,2024-05-18
+711,Meyer,Éléonore,Sainte Marcdan,particulier,2023-06-04
+712,Traore,Sabine,Weiss,particulier,2024-02-10
+713,Rolland,Michel,Sainte Michèle,professionnel,2023-10-22
+714,Antoine,Gilbert,Legendre,professionnel,2025-09-12
+715,Andre,Marthe,Guyonboeuf,premium,2023-06-17
+716,Bousquet,Bernadette,Laporte,premium,2026-01-21
+717,Baron,Nicolas,Bègue,particulier,2024-08-10
+718,Cohen,Christiane,Mullernec,premium,2024-05-08
+719,Bousquet,Capucine,Sainte Alixdan,professionnel,2023-06-05
+720,Labbé,Françoise,Gillet-sur-Mer,professionnel,2025-01-21
+721,Gauthier,Bertrand,Le Rouxdan,particulier,2025-05-05
+722,Marion,Jules,Martins,professionnel,2025-07-19
+723,Coulon,Xavier,Prévost,professionnel,2026-01-23
+724,Diaz,Susanne,Ledoux-sur-Mer,professionnel,2025-04-01
+725,Verdier,Lucas,Gosselin,professionnel,2024-02-24
+726,Bouvet,Sébastien,Saint Laurent,premium,2025-07-14
+727,Lopez,Roger,Teixeira,premium,2023-06-17
+728,Brun,Thérèse,Vincent-sur-Gonzalez,premium,2025-09-16
+729,Benoit,Renée,Sainte Catherine-les-Bains,premium,2025-07-28
+730,Da Silva,Alain,Pages,premium,2026-03-14
+731,Courtois,Xavier,Andre-les-Bains,particulier,2024-11-30
+732,Besnard,Jacqueline,Saint Valentine-la-Forêt,professionnel,2024-10-25
+733,Renault,Henri,Philippe-sur-Bazin,particulier,2023-07-18
+734,Schneider,Jacqueline,Camus,professionnel,2023-08-03
+735,Dos Santos,Alfred,Alexandre,professionnel,2026-02-13
+736,Germain,Victoire,Perez-sur-Lévy,professionnel,2025-12-09
+737,Foucher,Thomas,Leconte-sur-Lévy,particulier,2026-02-24
+738,Lopez,Michel,Sainte Françoisenec,professionnel,2024-04-22
+739,Labbé,Alfred,Lemaire,professionnel,2025-10-15
+740,Imbert,Maggie,Renaud-les-Bains,premium,2026-03-05
+741,Martineau,Claudine,Fischer,premium,2024-04-25
+742,Simon,Adrien,Faivrenec,professionnel,2024-03-24
+743,Garcia,Suzanne,Garcia,premium,2024-01-19
+744,Munoz,Renée,Greniernec,particulier,2025-01-10
+745,Lévy,Arthur,Saint Susanne,professionnel,2023-07-17
+746,Maurice,Catherine,Marin,particulier,2023-10-21
+747,Gros,Frédérique,Simon-sur-Dubois,premium,2025-09-25
+748,Merle,Christelle,Martyboeuf,premium,2023-06-09
+749,Guyon,Hugues,Renard,particulier,2024-07-04
+750,Vidal,Alphonse,Teixeira,professionnel,2023-08-28
+751,Andre,Gérard,Rodriguez,premium,2023-07-03
+752,Picard,Tristan,CharlesBourg,premium,2024-08-26
+753,Mercier,Claire,Masson,premium,2026-03-14
+754,Leroux,Alexandrie,Gilles,particulier,2023-05-27
+755,Couturier,Élisabeth,Barre,particulier,2024-11-25
+756,Albert,Denis,Rocher,premium,2023-08-31
+757,Petit,Anastasie,Marty-la-Forêt,professionnel,2024-12-19
+758,Marion,Nath,Mace-sur-Gimenez,particulier,2024-06-21
+759,Dias,Nathalie,Saint Thibault,professionnel,2024-08-16
+760,Hardy,Augustin,Leclerc,particulier,2025-07-09
+761,Lambert,Alice,Pages,particulier,2024-12-07
+762,Labbé,Adèle,Saint Sabine-la-Forêt,professionnel,2025-03-14
+763,Gérard,Marine,Allainnec,professionnel,2025-10-27
+764,Morel,Yves,Lenoirdan,professionnel,2025-02-14
+765,Pruvost,Céline,Sainte MarieBourg,particulier,2025-07-14
+766,Hubert,Henriette,Sainte Alainnec,professionnel,2024-03-01
+767,Charpentier,Jules,Étienne,professionnel,2023-06-08
+768,Picard,Richard,Dijoux-sur-Philippe,professionnel,2024-05-21
+769,Dumas,Grégoire,Charles,professionnel,2026-03-21
+770,Robert,François,Valette-sur-Hardy,professionnel,2023-09-24
+771,Neveu,Alain,Saint Geneviève,professionnel,2023-11-30
+772,Fouquet,Roger,RegnierBourg,professionnel,2024-02-18
+773,Lemaître,Colette,Blanchard,particulier,2025-03-23
+774,Moreau,Jeannine,DuhamelVille,professionnel,2024-05-05
+775,Gros,Caroline,Robin,particulier,2025-09-18
+776,Barbe,Martin,Sainte Véronique,premium,2024-08-31
+777,Henry,Alex,Dubois,premium,2024-12-11
+778,Marie,Patrick,Sainte Andréedan,particulier,2023-05-26
+779,Marchal,Josette,Lebon,professionnel,2025-08-05
+780,Letellier,Emmanuelle,Gonzalez,particulier,2025-09-17
+781,Giraud,Audrey,Saint Bernadette,premium,2024-04-04
+782,Leroux,Susanne,Gomes-sur-Lombard,particulier,2024-08-15
+783,Barbe,Sabine,BertrandVille,premium,2026-04-15
+784,Hoarau,Laure,Sauvage,particulier,2025-09-18
+785,Rivière,Caroline,Sainte Sylvienec,particulier,2025-11-15
+786,Lacroix,Raymond,Antoine,particulier,2024-07-13
+787,Blin,Louise,Guillotdan,particulier,2026-04-10
+788,Schneider,Inès,Cohendan,particulier,2023-08-05
+789,Nicolas,Rémy,Martynec,premium,2024-12-27
+790,Payet,Simone,Saint Pierre,particulier,2024-12-04
+791,Baron,Zoé,Alves,particulier,2025-04-07
+792,Legrand,Lucie,Saint Julien,particulier,2024-02-01
+793,Pereira,Christelle,Arnaud,professionnel,2024-06-19
+794,Lamy,Nathalie,Boyer,premium,2024-11-16
+795,Le Goff,Valentine,Dijoux,particulier,2023-07-04
+796,Auger,Élisabeth,Sainte Charlottedan,premium,2024-07-31
+797,Olivier,Bernard,Legrand,particulier,2024-07-03
+798,Grégoire,Nathalie,Saint Louise-sur-Mer,professionnel,2025-11-29
+799,Roche,Bernadette,Peron-la-Forêt,premium,2025-05-28
+800,Lecoq,Marthe,Sainte Margot-la-Forêt,professionnel,2026-03-24
+801,Roy,Guillaume,Maury,professionnel,2024-04-04
+802,Laine,Alex,Giraudboeuf,particulier,2024-01-27
+803,Lejeune,Éric,Sainte FrédériqueBourg,premium,2025-12-18
+804,Neveu,Zacharie,Bousquet-sur-Dubois,premium,2024-08-15
+805,Fleury,Nicolas,Sauvage,premium,2025-09-20
+806,Hervé,Thomas,Ramos-la-Forêt,premium,2026-01-04
+807,Rodrigues,Christophe,Peltier,particulier,2024-03-31
+808,Gillet,Charlotte,Menard-sur-Millet,particulier,2023-08-16
+809,Maury,Christiane,PerezVille,professionnel,2024-05-13
+810,Dupré,Arnaude,Sainte Robert-la-Forêt,particulier,2024-03-29
+811,Deschamps,Paul,Ribeiro-sur-Jacob,premium,2024-10-25
+812,Evrard,Sylvie,Fischer-sur-Bonneau,particulier,2025-07-21
+813,David,Laurence,Saint Théophile,professionnel,2024-06-03
+814,Perret,Louise,Saint SuzanneBourg,premium,2024-07-27
+815,Barbe,Odette,Sainte Nathalienec,premium,2023-07-24
+816,Diaz,Vincent,Roy,professionnel,2024-10-14
+817,Courtois,Jeanne,Boucher-la-Forêt,professionnel,2025-12-12
+818,Jacques,Amélie,Laroche,premium,2026-02-04
+819,Jacob,Jacqueline,Marteldan,particulier,2025-01-09
+820,Blanchet,Louise,Blin,particulier,2024-03-09
+821,Courtois,Sophie,Saint Richard,premium,2025-10-09
+822,Boulay,Cécile,Saint AlexandriaBourg,premium,2023-11-10
+823,Leclerc,Frédéric,Saint Claire-sur-Mer,premium,2024-01-04
+824,Blot,Alexandrie,Munoz,particulier,2024-09-07
+825,Meunier,Marcel,Regnier-sur-Picard,particulier,2025-07-13
+826,Weiss,Diane,Masse-sur-Chauveau,premium,2026-02-27
+827,Diaz,Astrid,Aubert-sur-Mer,professionnel,2025-07-21
+828,Briand,Benjamin,Renard,premium,2025-05-30
+829,Roy,Éléonore,Julien,premium,2025-04-04
+830,Renard,Aimé,Marie,particulier,2025-03-04
+831,Maurice,Josette,CamusVille,premium,2024-08-08
+832,Gauthier,Camille,Moreno,particulier,2023-12-03
+833,Robert,Françoise,Pascal-sur-Mer,professionnel,2023-07-13
+834,Guichard,Susanne,Sainte Honorénec,premium,2023-08-15
+835,Hebert,Victor,Vallet,professionnel,2025-10-31
+836,Gonzalez,Alfred,Aubert,premium,2024-08-15
+837,Collet,Xavier,Saint Claudineboeuf,professionnel,2025-08-15
+838,Didier,Anastasie,Martin,particulier,2024-09-04
+839,Germain,Victor,Monnier-sur-Roux,premium,2026-02-21
+840,Lemaître,Isaac,Mary-sur-Valette,premium,2025-11-19
+841,Royer,Benjamin,Garnier,professionnel,2025-02-21
+842,Delorme,Adélaïde,Boulangerdan,particulier,2025-12-10
+843,Chrétien,Laure,Vallet,professionnel,2023-11-04
+844,Rey,Hugues,Saint Michelle-sur-Mer,professionnel,2024-12-02
+845,Hernandez,Corinne,Rodrigues-sur-Mer,particulier,2023-12-26
+846,Lelièvre,Patrick,DufourBourg,professionnel,2024-10-16
+847,Leconte,Bernadette,NguyenVille,professionnel,2023-12-16
+848,Georges,Cécile,Roger,premium,2023-11-18
+849,Masse,Mathilde,Ledoux,professionnel,2025-05-18
+850,Henry,Thibault,Petit-sur-Rey,premium,2025-03-17
+851,Lemaire,Hortense,Adam,particulier,2025-12-30
+852,Dubois,Hortense,Lebon-sur-Robin,professionnel,2025-05-08
+853,Allain,Élisabeth,Michaud,particulier,2023-08-23
+854,Meunier,Audrey,Bertrand,premium,2023-09-06
+855,Pruvost,Pauline,Millet-la-Forêt,premium,2024-12-31
+856,Sanchez,Guillaume,Lévêque,premium,2025-08-12
+857,Grenier,Chantal,Sainte MargaudBourg,professionnel,2025-07-29
+858,Maury,Zacharie,Becker,premium,2025-05-23
+859,Pottier,Jeanne,Bruneau,premium,2023-11-10
+860,Pelletier,Adrien,Pascal,professionnel,2025-04-17
+861,Boyer,Margaret,Voisin-sur-Joubert,professionnel,2023-09-18
+862,Roger,Richard,Lebrun,professionnel,2024-12-14
+863,Cordier,Timothée,Sainte Améliedan,premium,2023-08-24
+864,Clerc,Monique,Saint Célinenec,premium,2025-05-18
+865,Morel,Claudine,Sainte AlphonseVille,professionnel,2026-04-21
+866,Cordier,Catherine,Sainte Isabelle,professionnel,2024-06-07
+867,Ferrand,Simone,Leduc,particulier,2024-03-12
+868,Laroche,Nathalie,Dupontnec,particulier,2024-08-29
+869,Couturier,Marguerite,Poirier-les-Bains,professionnel,2023-07-26
+870,Roger,Charlotte,Fischer,professionnel,2025-03-22
+871,Bertrand,Richard,Sainte Françoise,particulier,2026-03-26
+872,Marty,Michèle,Moreau,professionnel,2024-02-26
+873,Cordier,Anaïs,Vaillant-sur-Fernandes,premium,2025-12-07
+874,Jean,Christelle,Dupré,premium,2025-02-21
+875,Pichon,Alice,Louis-sur-Mer,premium,2025-10-23
+876,Rodrigues,Lucy,Sainte René,professionnel,2023-08-04
+877,Jacob,Charlotte,Paris,professionnel,2024-04-04
+878,Adam,Franck,Lelièvrenec,particulier,2023-08-31
+879,Cordier,Paul,Marchandnec,professionnel,2023-11-05
+880,Petitjean,Thierry,Grondin-sur-Guibert,professionnel,2026-04-15
+881,Roy,Frédérique,Martineaudan,particulier,2024-08-07
+882,Breton,Laurence,Saint Gabrielle,professionnel,2023-09-13
+883,Lemonnier,Susan,Pasquier-sur-Mer,particulier,2025-02-16
+884,Laurent,Catherine,Saint Juliette,professionnel,2024-03-30
+885,Gay,Suzanne,Olivier,professionnel,2024-04-01
+886,Bertin,Alex,Sainte Denisboeuf,professionnel,2024-03-15
+887,Duhamel,Marguerite,ChevalierBourg,professionnel,2025-12-25
+888,Humbert,Michèle,Tanguy,premium,2025-03-05
+889,Simon,Michel,Saint Inès-la-Forêt,premium,2024-07-14
+890,Cohen,William,Clerc,professionnel,2024-09-05
+891,Rousset,Josette,Saint Aimée-la-Forêt,premium,2023-09-26
+892,Bazin,Renée,Louis,particulier,2023-08-18
+893,Besson,Jacqueline,Roger,premium,2024-08-19
+894,Ruiz,Philippe,Marin,particulier,2024-10-16
+895,Chrétien,Denise,Boutin-sur-Benoit,particulier,2025-04-03
+896,Baron,Thomas,Sainte Juliendan,particulier,2024-05-18
+897,Barthelemy,Célina,Lagardeboeuf,premium,2025-05-03
+898,Delattre,Maurice,Saint Olivieboeuf,professionnel,2024-11-07
+899,Bourgeois,Danielle,Sainte Benjamin-la-Forêt,professionnel,2026-02-07
+900,Munoz,Margaud,Buisson-sur-Renard,premium,2026-04-06
+901,Grégoire,Aimé,François,particulier,2024-01-29
+902,Mace,Manon,Poulain,premium,2024-02-18
+903,Simon,Adrienne,Renaud-la-Forêt,professionnel,2024-07-02
+904,Pierre,Alexandrie,Lévy-sur-Mer,premium,2026-03-13
+905,Weiss,Simone,Marchalnec,premium,2024-08-22
+906,Laurent,Célina,LarocheBourg,professionnel,2025-07-04
+907,Leclercq,Anaïs,Bouchet-les-Bains,professionnel,2024-11-18
+908,Chevallier,Georges,Paris,particulier,2023-05-18
+909,Garcia,Anaïs,Besson-sur-Letellier,particulier,2023-07-04
+910,Delmas,Daniel,Bessonnec,professionnel,2025-07-09
+911,Dupont,Geneviève,Chrétien,particulier,2023-05-08
+912,Laine,Laetitia,Rodrigues,professionnel,2024-02-14
+913,Boulanger,Anaïs,Léger,premium,2026-02-14
+914,Leroux,Jérôme,Bernier,particulier,2024-10-04
+915,Moulin,Jeanne,Joseph-la-Forêt,professionnel,2023-10-03
+916,Bonnin,Nicole,Schneider,premium,2024-04-19
+917,Toussaint,Paulette,Dufour,premium,2025-04-17
+918,Blanchard,Clémence,Texierboeuf,professionnel,2024-03-08
+919,Leconte,Olivier,Humbert,professionnel,2026-01-23
+920,Guilbert,Suzanne,BarthelemyVille,premium,2023-06-01
+921,Renaud,Thibault,Guillot,premium,2025-05-31
+922,Moreau,Maryse,Thibault,professionnel,2024-01-11
+923,Pineau,Victor,Raynaud,professionnel,2024-08-27
+924,Barbier,Anouk,Sainte Océane,premium,2025-06-28
+925,Camus,Luce,Marinboeuf,premium,2025-03-28
+926,Petitjean,Emmanuel,Ledouxboeuf,professionnel,2023-09-01
+927,Dupré,Amélie,Saint Étienne,professionnel,2025-12-24
+928,Mace,Guillaume,Muller,premium,2024-12-03
+929,Gillet,Alice,Huet,professionnel,2025-11-19
+930,Traore,Martine,LamyBourg,professionnel,2025-01-31
+931,Chauveau,Emmanuelle,Sainte MarcVille,professionnel,2023-08-19
+932,Bourdon,Christelle,Fernandez,professionnel,2024-11-02
+933,Lamy,Julie,Weiss,particulier,2026-02-08
+934,Rolland,Alain,Sainte Christine,particulier,2024-06-27
+935,Valentin,Luc,Saint Laetitiadan,premium,2023-10-01
+936,Seguin,Pénélope,Bègueboeuf,particulier,2024-03-07
+937,Guilbert,Thérèse,Briand,professionnel,2024-03-14
+938,Guichard,Émilie,Blanchet,particulier,2023-11-19
+939,Lamy,Adrien,Cordier-sur-Gimenez,premium,2025-06-05
+940,Étienne,Michèle,Saint Camille-les-Bains,premium,2025-05-30
+941,Maurice,Jeanne,Hoareau,premium,2023-11-06
+942,Perez,Anastasie,Vidal-sur-Bernier,particulier,2025-10-21
+943,Mace,Thérèse,Monnierboeuf,particulier,2023-11-19
+944,Rousseau,Bernadette,Blotboeuf,particulier,2023-05-23
+945,Morel,Zacharie,Rodrigues,premium,2024-03-07
+946,Nicolas,Émilie,Weber,professionnel,2023-12-15
+947,Henry,Laurence,Faure,professionnel,2024-12-16
+948,Pineau,Gilles,Samson,premium,2025-04-21
+949,Hamel,Gilles,Royer-sur-Mer,premium,2025-03-02
+950,Bazin,Nathalie,Saint Philippe,premium,2023-05-17
+951,Lemonnier,Christelle,Pascal-la-Forêt,premium,2024-02-25
+952,Grenier,Frédérique,Lévy,professionnel,2023-11-20
+953,Auger,Léon,Lambert-sur-Deschamps,particulier,2025-11-08
+954,Ribeiro,Catherine,Marty,particulier,2023-10-30
+955,Ferreira,Tristan,Sainte Jérôme,professionnel,2024-11-30
+956,Lacroix,André,Dupré,particulier,2025-07-27
+957,Faivre,Noël,Richard-la-Forêt,professionnel,2024-12-11
+958,Bègue,Auguste,Sainte Benjamin-la-Forêt,particulier,2023-07-08
+959,Langlois,Alix,Massenec,professionnel,2023-05-02
+960,Dupré,Emmanuel,Paul,particulier,2024-10-21
+961,Potier,Dorothée,Hamel,premium,2025-08-30
+962,Gérard,Zacharie,Pinto,premium,2023-11-17
+963,Rousset,Philippine,Sainte Marguerite,particulier,2024-07-03
+964,Bazin,Caroline,Saint Frédériquedan,professionnel,2026-02-18
+965,Dumas,Nathalie,Guyot-sur-Renaud,particulier,2024-04-08
+966,Chauveau,Lucy,Rousseau-sur-Gros,particulier,2023-06-22
+967,Brunet,Renée,Marchand,premium,2024-09-20
+968,Hubert,Aurore,Delattre-sur-Boulay,professionnel,2024-06-07
+969,Raymond,Benoît,Leduc,premium,2026-01-24
+970,Thierry,Laure,BriandVille,particulier,2024-12-07
+971,Lopez,Frédérique,Roger,premium,2024-10-24
+972,Fischer,Philippe,Sainte Christelle,professionnel,2025-12-10
+973,Joubert,Colette,Roussel,particulier,2026-03-26
+974,Mary,Élisabeth,Hoareauboeuf,particulier,2023-07-31
+975,Gomez,Thibault,RousselBourg,premium,2026-02-17
+976,Courtois,Anastasie,Michaud,professionnel,2023-12-04
+977,Riou,Simone,Saint EugèneBourg,professionnel,2023-11-18
+978,Pinto,Danielle,Sainte Antoine-les-Bains,professionnel,2025-12-09
+979,Collin,Aurélie,Lamy,professionnel,2023-08-25
+980,Da Costa,Denise,Renaud,professionnel,2024-02-24
+981,Loiseau,Rémy,Lelièvredan,particulier,2024-09-06
+982,Blondel,David,Maillot,particulier,2023-11-05
+983,Hervé,Valérie,Boulaydan,professionnel,2024-10-07
+984,Garnier,Jacques,Étienne-sur-Mer,professionnel,2025-02-10
+985,Bernier,Marthe,Prévost,particulier,2024-07-01
+986,Blanchard,Alfred,Chrétien,particulier,2023-05-20
+987,Lesage,Monique,Thomas-sur-Lamy,professionnel,2026-01-21
+988,Guibert,Diane,Bouvet,professionnel,2025-10-13
+989,Pereira,Paulette,Sainte Catherinenec,particulier,2024-11-28
+990,Bernier,Diane,Gonzalez,premium,2025-05-10
+991,Bigot,Zoé,Hamon,premium,2026-04-18
+992,Verdier,Olivier,Sainte Jacques,premium,2025-06-23
+993,Huet,Arthur,Piresdan,particulier,2025-11-20
+994,Carlier,Sylvie,Saint Henriette-la-Forêt,particulier,2024-09-19
+995,Maury,Emmanuel,Maury-sur-Mer,particulier,2024-02-24
+996,Humbert,Paul,Sainte Marysenec,premium,2025-11-19
+997,Ferreira,Claudine,Payet,professionnel,2025-05-11
+998,Lefebvre,Aurélie,Andrenec,particulier,2024-11-15
+999,Jourdan,Laetitia,Menard,particulier,2023-05-21
+1000,Mendès,Éric,ThibaultBourg,particulier,2023-05-10
