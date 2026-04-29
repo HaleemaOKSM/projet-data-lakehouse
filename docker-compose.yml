@@ -1,61 +1,206 @@
 version: "3.8"
-services:
 
-  minio:
-    image: minio/minio
-    container_name: minio
-    ports:
-      - "9000:9000"
-      - "9001:9001"
-    environment:
-      MINIO_ROOT_USER: minioadmin
-      MINIO_ROOT_PASSWORD: minioadmin
-    command: server /data --console-address ":9001"
-    volumes:
-      - minio_data:/data
-
-  hive-metastore:
-    image: apache/hive:3.1.3
-    container_name: hive-metastore
-    depends_on: [minio]
-    ports:
-      - "9083:9083"
-    environment:
-      SERVICE_NAME: metastore
-      AWS_ACCESS_KEY_ID: minioadmin
-      AWS_SECRET_ACCESS_KEY: minioadmin
-      S3_ENDPOINT: http://minio:9000
-
-  trino:
-    image: trinodb/trino:435
-    container_name: trino
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./trino/catalog:/etc/trino/catalog
-    depends_on: [hive-metastore]
-
-  spark:
-    image: bitnami/spark:3.5
-    container_name: spark
-    environment:
-      SPARK_MODE: master
-      AWS_ACCESS_KEY_ID: minioadmin
-      AWS_SECRET_ACCESS_KEY: minioadmin
-    ports:
-      - "8081:8080"
-      - "7077:7077"
-    volumes:
-      - ./jobs:/opt/jobs
-      - ./data:/opt/data
-
-  superset:
-    image: apache/superset:latest
-    container_name: superset
-    ports:
-      - "8088:8088"
-    environment:
-      SUPERSET_SECRET_KEY: superset_secret
+networks:
+  lakehouse-net:
+    driver: bridge
 
 volumes:
   minio_data:
+  postgres_hive_data:
+
+services:
+
+  # ─────────────────────────────────────────
+  # 1. MinIO — Stockage objet S3
+  # ─────────────────────────────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    hostname: minio
+    networks:
+      - lakehouse-net
+    ports:
+      - "9000:9000"   # API S3
+      - "9001:9001"   # Console web
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────────
+  # 2. MinIO Init — crée les buckets au démarrage
+  # ─────────────────────────────────────────
+  minio-init:
+    image: minio/mc:latest
+    container_name: minio-init
+    networks:
+      - lakehouse-net
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set local http://minio:9000 minioadmin minioadmin123;
+      mc mb --ignore-existing local/lakehouse;
+      mc mb --ignore-existing local/lakehouse/bronze;
+      mc mb --ignore-existing local/lakehouse/silver;
+      mc mb --ignore-existing local/lakehouse/gold;
+      mc mb --ignore-existing local/lakehouse/raw;
+      echo 'Buckets créés avec succès';
+      "
+
+  # ─────────────────────────────────────────
+  # 3. PostgreSQL — Base de métadonnées Hive
+  # ─────────────────────────────────────────
+  postgres-hive:
+    image: postgres:15
+    container_name: postgres-hive
+    hostname: postgres-hive
+    networks:
+      - lakehouse-net
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: metastore_db
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: hive123
+    volumes:
+      - postgres_hive_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hive -d metastore_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────────
+  # 4. Hive Metastore — Catalogue des tables
+  # ─────────────────────────────────────────
+  hive-metastore:
+    image: bitsondatadev/hive-metastore:latest
+    container_name: hive-metastore
+    hostname: hive-metastore
+    networks:
+      - lakehouse-net
+    ports:
+      - "9083:9083"
+    depends_on:
+      postgres-hive:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    environment:
+      METASTORE_DB_HOSTNAME: postgres-hive
+      METASTORE_DB_PORT: 5432
+      METASTORE_DB_NAME: metastore_db
+      METASTORE_DB_USER: hive
+      METASTORE_DB_PASSWORD: hive123
+      S3_ENDPOINT: http://minio:9000
+      S3_ACCESS_KEY: minioadmin
+      S3_SECRET_KEY: minioadmin123
+      S3_PATH_STYLE_ACCESS: "true"
+    volumes:
+      - ./hive/conf/hive-site.xml:/opt/hive/conf/hive-site.xml
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "9083"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+
+  # ─────────────────────────────────────────
+  # 5. Trino — Moteur SQL distribué
+  # ─────────────────────────────────────────
+  trino:
+    image: trinodb/trino:435
+    container_name: trino
+    hostname: trino
+    networks:
+      - lakehouse-net
+    ports:
+      - "8080:8080"
+    depends_on:
+      hive-metastore:
+        condition: service_healthy
+    volumes:
+      - ./trino/catalog:/etc/trino/catalog
+      - ./trino/config/config.properties:/etc/trino/config.properties
+      - ./trino/config/jvm.config:/etc/trino/jvm.config
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/v1/info"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+
+  # ─────────────────────────────────────────
+  # 6. Apache Spark — Traitements Big Data
+  # ─────────────────────────────────────────
+  spark-master:
+    image: bitnami/spark:3.5
+    container_name: spark-master
+    hostname: spark-master
+    networks:
+      - lakehouse-net
+    ports:
+      - "8081:8080"   # Spark UI
+      - "7077:7077"   # Spark master port
+    environment:
+      SPARK_MODE: master
+      AWS_ACCESS_KEY_ID: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin123
+      SPARK_MASTER_OPTS: "-Dspark.ui.port=8080"
+    volumes:
+      - ./jobs:/opt/bitnami/spark/jobs
+      - ./data:/opt/bitnami/spark/data
+      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+
+  spark-worker:
+    image: bitnami/spark:3.5
+    container_name: spark-worker
+    hostname: spark-worker
+    networks:
+      - lakehouse-net
+    depends_on:
+      - spark-master
+    environment:
+      SPARK_MODE: worker
+      SPARK_MASTER_URL: spark://spark-master:7077
+      SPARK_WORKER_MEMORY: 2G
+      SPARK_WORKER_CORES: 2
+      AWS_ACCESS_KEY_ID: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin123
+    volumes:
+      - ./jobs:/opt/bitnami/spark/jobs
+      - ./data:/opt/bitnami/spark/data
+      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+
+  # ─────────────────────────────────────────
+  # 7. Apache Superset — Visualisation BI
+  # ─────────────────────────────────────────
+  superset:
+    image: apache/superset:3.1.0
+    container_name: superset
+    hostname: superset
+    networks:
+      - lakehouse-net
+    ports:
+      - "8088:8088"
+    depends_on:
+      - trino
+    environment:
+      SUPERSET_SECRET_KEY: "votre_cle_secrete_longue_ici_123!"
+      ADMIN_USERNAME: admin
+      ADMIN_PASSWORD: admin123
+      ADMIN_EMAIL: admin@lakehouse.com
+    command: >
+      /bin/sh -c "
+      superset db upgrade &&
+      superset fab create-admin --username admin --firstname Admin --lastname User --email admin@lakehouse.com --password admin123 &&
+      superset init &&
+      superset run -h 0.0.0.0 -p 8088
+      "
