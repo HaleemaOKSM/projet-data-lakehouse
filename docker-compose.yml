@@ -59,24 +59,21 @@ services:
   # ─────────────────────────────────────────
   # 3. PostgreSQL — Base de métadonnées Hive
   # ─────────────────────────────────────────
-  postgres-hive:
-    image: postgres:15
-    container_name: postgres-hive
-    hostname: postgres-hive
+  mysql-hive:
+    image: mysql:8
+    container_name: mysql-hive
+    environment:
+      MYSQL_DATABASE: metastore_db
+      MYSQL_USER: hive
+      MYSQL_PASSWORD: hive123
+      MYSQL_ROOT_PASSWORD: root123
+    ports:
+      - "3307:3306"
     networks:
       - lakehouse-net
-    ports:
-      - "5433:5432"
-    environment:
-      POSTGRES_DB: metastore_db
-      POSTGRES_USER: hive
-      POSTGRES_PASSWORD: hive123
-    volumes:
-      - postgres_hive_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U hive -d metastore_db"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s
-      timeout: 5s
       retries: 5
 
   # ─────────────────────────────────────────
@@ -91,13 +88,13 @@ services:
     ports:
       - "9083:9083"
     depends_on:
-      postgres-hive:
+      mysql-hive:
         condition: service_healthy
       minio:
         condition: service_healthy
     environment:
-      METASTORE_DB_HOSTNAME: postgres-hive
-      METASTORE_DB_PORT: 5432
+      METASTORE_DB_HOSTNAME: mysql-hive
+      METASTORE_DB_PORT: 3306
       METASTORE_DB_NAME: metastore_db
       METASTORE_DB_USER: hive
       METASTORE_DB_PASSWORD: hive123
@@ -106,7 +103,7 @@ services:
       S3_SECRET_KEY: minioadmin123
       S3_PATH_STYLE_ACCESS: "true"
     volumes:
-      - ./hive/conf/hive-site.xml:/opt/hive/conf/hive-site.xml
+      - ./hive/conf/hive-site.xml:/opt/apache-hive-metastore-3.0.0-bin/conf/hive-site.xml
     healthcheck:
       test: ["CMD", "nc", "-z", "localhost", "9083"]
       interval: 15s
@@ -141,26 +138,23 @@ services:
   # 6. Apache Spark — Traitements Big Data
   # ─────────────────────────────────────────
   spark-master:
-    image: bitnami/spark:3.5
+    image: apache/spark:3.5.0
     container_name: spark-master
     hostname: spark-master
     networks:
       - lakehouse-net
     ports:
-      - "8081:8080"   # Spark UI
-      - "7077:7077"   # Spark master port
+      - "8081:8080"
+      - "7077:7077"
     environment:
       SPARK_MODE: master
-      AWS_ACCESS_KEY_ID: minioadmin
-      AWS_SECRET_ACCESS_KEY: minioadmin123
-      SPARK_MASTER_OPTS: "-Dspark.ui.port=8080"
     volumes:
-      - ./jobs:/opt/bitnami/spark/jobs
-      - ./data:/opt/bitnami/spark/data
-      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
-
+      - ./jobs:/opt/spark/jobs
+      - ./data:/opt/spark/data
+      - ./spark/conf/spark-defaults.conf:/opt/spark/conf/spark-defaults.conf
+    
   spark-worker:
-    image: bitnami/spark:3.5
+    image: apache/spark:3.5.0
     container_name: spark-worker
     hostname: spark-worker
     networks:
@@ -172,13 +166,11 @@ services:
       SPARK_MASTER_URL: spark://spark-master:7077
       SPARK_WORKER_MEMORY: 2G
       SPARK_WORKER_CORES: 2
-      AWS_ACCESS_KEY_ID: minioadmin
-      AWS_SECRET_ACCESS_KEY: minioadmin123
     volumes:
-      - ./jobs:/opt/bitnami/spark/jobs
-      - ./data:/opt/bitnami/spark/data
-      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
-
+      - ./jobs:/opt/spark/jobs
+      - ./data:/opt/spark/data
+      - ./spark/conf/spark-defaults.conf:/opt/spark/conf/spark-defaults.conf
+  
   # ─────────────────────────────────────────
   # 7. Apache Superset — Visualisation BI
   # ─────────────────────────────────────────
