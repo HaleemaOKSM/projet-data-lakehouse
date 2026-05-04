@@ -146,13 +146,12 @@ services:
     ports:
       - "8081:8080"
       - "7077:7077"
-    environment:
-      SPARK_MODE: master
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
     volumes:
       - ./jobs:/opt/spark/jobs
       - ./data:/opt/spark/data
-      - ./spark/conf/spark-defaults.conf:/opt/spark/conf/spark-defaults.conf
-    
+
   spark-worker:
     image: apache/spark:3.5.0
     container_name: spark-worker
@@ -161,16 +160,11 @@ services:
       - lakehouse-net
     depends_on:
       - spark-master
-    environment:
-      SPARK_MODE: worker
-      SPARK_MASTER_URL: spark://spark-master:7077
-      SPARK_WORKER_MEMORY: 2G
-      SPARK_WORKER_CORES: 2
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
     volumes:
       - ./jobs:/opt/spark/jobs
       - ./data:/opt/spark/data
-      - ./spark/conf/spark-defaults.conf:/opt/spark/conf/spark-defaults.conf
-  
   # ─────────────────────────────────────────
   # 7. Apache Superset — Visualisation BI
   # ─────────────────────────────────────────
