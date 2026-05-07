@@ -71,6 +71,8 @@ services:
       - "3307:3306"
     networks:
       - lakehouse-net
+    volumes:
+      - postgres_hive_data:/var/lib/mysql 
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s
